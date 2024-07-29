@@ -11,6 +11,9 @@
 		187BD0B22C577CAD0020A0FF /* CameraPickerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187BD0A72C577CAD0020A0FF /* CameraPickerDemo.framework */; };
 		187BD0B72C577CAD0020A0FF /* CameraPickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD0B62C577CAD0020A0FF /* CameraPickerDemoTests.swift */; };
 		187BD0B82C577CAD0020A0FF /* CameraPickerDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 187BD0AA2C577CAD0020A0FF /* CameraPickerDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187BD0C22C577E410020A0FF /* CameraPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD0C12C577E410020A0FF /* CameraPickerDemo.swift */; };
+		187BD0C42C577E9A0020A0FF /* CameraPickerDemoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD0C32C577E9A0020A0FF /* CameraPickerDemoError.swift */; };
+		187BD0C62C577EA50020A0FF /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187BD0C52C577EA50020A0FF /* Activity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		187BD0AB2C577CAD0020A0FF /* CameraPickerDemo.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CameraPickerDemo.docc; sourceTree = "<group>"; };
 		187BD0B12C577CAD0020A0FF /* CameraPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187BD0B62C577CAD0020A0FF /* CameraPickerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPickerDemoTests.swift; sourceTree = "<group>"; };
+		187BD0C12C577E410020A0FF /* CameraPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPickerDemo.swift; sourceTree = "<group>"; };
+		187BD0C32C577E9A0020A0FF /* CameraPickerDemoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPickerDemoError.swift; sourceTree = "<group>"; };
+		187BD0C52C577EA50020A0FF /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				187BD0AA2C577CAD0020A0FF /* CameraPickerDemo.h */,
+				187BD0C12C577E410020A0FF /* CameraPickerDemo.swift */,
+				187BD0C32C577E9A0020A0FF /* CameraPickerDemoError.swift */,
+				187BD0C52C577EA50020A0FF /* Activity.swift */,
 				187BD0AB2C577CAD0020A0FF /* CameraPickerDemo.docc */,
 			);
 			path = CameraPickerDemo;
@@ -195,6 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				187BD0AC2C577CAD0020A0FF /* CameraPickerDemo.docc in Sources */,
+				187BD0C22C577E410020A0FF /* CameraPickerDemo.swift in Sources */,
+				187BD0C62C577EA50020A0FF /* Activity.swift in Sources */,
+				187BD0C42C577E9A0020A0FF /* CameraPickerDemoError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,7 @@
 		187BD0BF2C577CAD0020A0FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JEMT6P7F5U;
@@ -427,6 +440,7 @@
 		187BD0C02C577CAD0020A0FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JEMT6P7F5U;
